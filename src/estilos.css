@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+
+    flex-flow            : row wrap;
+    /*   flex-direction  : row;
+    flex-wrap            : nowrap; */
+    justify-content      : space-evenly;
+    align-items          : stretch;
+
+    background-color: aqua;
+    height          : 200px;
+    margin          : 20px auto;
+    padding         : 10px;
+    width           : 60%;
+
+}
+
+.container div {
+    background-color: brown;
+    border          : 1px solid black;
+    height          : 50px;
+}
