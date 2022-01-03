@@ -1,22 +1,37 @@
 .container {
-    display: flex;
-
-    flex-flow            : row wrap;
-    /*   flex-direction  : row;
-    flex-wrap            : nowrap; */
-    justify-content      : space-evenly;
-    align-items          : stretch;
-
-    background-color: aqua;
-    height          : 200px;
-    margin          : 20px auto;
-    padding         : 10px;
-    width           : 60%;
-
+    margin: 20px auto;
+    width : 80%;
 }
 
-.container div {
-    background-color: brown;
-    border          : 1px solid black;
+header {
+    align-items     : center;
+    background-color: cadetblue;
+    display         : flex;
+    flex-direction  : row;
+    flex-wrap       : wrap;
+    justify-content : center;
+    height          : 400px;
+    padding         : 1rem;
+}
+
+header div {
+    background-color: chocolate;
+}
+
+main {
+    display         : flex;
+    align-content   : stretch;
+    background-color: crimson;
+    flex-flow       : row wrap;
+    justify-content : space-around;
+    height          : 400px;
+    margin-top      : 50px;
+}
+
+main div {
+    background-color: darkblue;
+    border          : 1px solid greenyellow;
     height          : 50px;
+    padding         : 1em;
+    width           : 20%;
 }
