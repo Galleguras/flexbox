@@ -15,7 +15,7 @@ const ContentWrapper = () => {
       <Main />
       <Article>
         <img src="../img/cielo.jpg" alt="cielo" />
-        <h2>Una imagen bonita de un cielo</h2>
+        <h2>Una imagen bonita de un cielo es</h2>
       </Article>
     </>
   )
