@@ -1,6 +1,5 @@
 @font-face {
-    font-family: "Lobster", cursive;
-    src        : local("LobsterRegular"),
-        url("./fonts/Lobster/Lobster-Regular.ttf") format("truetype");
-
+  font-family: 'Lobster', cursive;
+  src: local('LobsterRegular'),
+    url('./fonts/Lobster/Lobster-Regular.ttf') format('truetype');
 }
